@@ -83,3 +83,13 @@ h3,p{
 
     }
   }
+ul{
+    font-size: x-small;
+}
+#tC{
+    margin-top: 40px;
+}
+#tandC{
+width:80%;
+margin: auto;
+}

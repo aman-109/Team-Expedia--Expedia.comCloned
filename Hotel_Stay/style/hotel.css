@@ -1,0 +1,215 @@
+body,html{
+    background-color: rgb(243, 240, 240);
+}
+#H_container{
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+#H_container_child{
+    width: 82%;
+    margin-top: 0.5rem;
+    
+}
+#H_ads{
+    width: 15%;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+#H_searchBar{
+    width: 100%;
+    height: 3.1rem;
+    display: flex;
+    justify-content: space-between;
+}
+#H_btn{
+    width: 35%;
+    display: flex;
+    align-items:center;
+    gap: 5px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.icon{
+    float: left;
+    height: fit-content;
+}
+.H_subheading{
+    height: 3.1rem;
+    line-height: 5px;
+    /* border: 1px solid; */
+    text-align: start;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+   
+}
+.H_destination{
+    font-size: 1rem;
+}
+.H_calender{
+    width: 16%;
+    display: flex;
+    align-items:center;
+    gap: 5px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.H_searchBtn{
+    width: 14%;
+    background-color: rgb(64, 64, 233);
+    justify-content: center;
+    font-size: 1.1rem;
+    color:white;
+}
+
+#H_container_child_child{
+    width: 100%;
+    /* border: 1px solid red; */
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#H_filterBox{
+    width: 23%;
+    /* border: 1px solid; */
+}
+
+#H_result_box{
+    width: 74%;
+    /* border: 1px solid red; */
+}
+
+.H_mapDiv{
+    width: 100%;
+    height:8rem;
+    text-align: center;
+   /* border: 1px solid red; */
+}
+#H_map{
+    width: 100%;
+    height: 4.5rem;
+    /* border: 1px solid red; */
+}
+
+.H_mapName{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    background-color: white;
+    color: blue;
+    /* border:1px solid; */
+}
+.H_propertySearch{
+    padding-top: 0.5rem;
+    padding-bottom: 1.5rem;
+    border: 1px solid gray;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-left: 0;
+    border-right: 0;
+}
+.H_calender_child{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 10px;
+    gap: 0.5rem;
+    color: gray;
+    font-size: 1.1vw;
+    
+}
+.H_propertyHeading{
+    font-size: 1.3vw;
+}
+.H_Filter_child{
+    line-height: 2rem;
+    /* border: 1px solid; */
+    
+}
+.H_filter_input{
+    width: 2rem;
+    height: 1.2rem;
+  
+}
+
+.h_Filter_subhead{
+    font-weight: bold;
+}
+.checkbox-round{
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid gray;
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+.checkbox-round:checked{
+    background-color:blue;
+    /* border: 1px solid blue; */
+}
+
+
+.H_filter_rating{
+    width: 3rem;
+    height: 2.5rem;
+    border-radius: 8px;
+    border: 1px solid;
+    background-color: white;
+}
+
+.H_seeMore{
+    color: blue;
+    text-decoration: none;
+}
+
+.H_seeMore:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.H_smallDetails{
+    line-height: normal !important;
+    margin-left: 3rem;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    
+}
+#H_recommended{
+    display: flex;
+    justify-content: space-between;
+}
+
+.H_sort_box{
+    display: inline-block;
+    width:35%;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 1rem;
+    border: 1px solid;
+}
+.H_sort_label{
+    font-size: 0.8rem;
+    padding-left: 0.2rem;
+}
+#H_sort{
+    width: 95%;
+    font-size: 1rem;
+    border: 0;
+    
+}
+

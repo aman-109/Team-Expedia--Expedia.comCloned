@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/hotel.css" />
+	<link rel="stylesheet" href="./style/hotelResult.css">
+	<link rel="stylesheet" href="./style/navbar.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <style>
+	 .mapouter {
+          position: relative;
+          text-align: right;
+          height: 5.5rem;
+          width: 100%;
+        }
+        .gmap_canvas {
+            overflow: hidden;
+            background: none !important;
+            height: 5.5rem;
+            width: 100%;
+          }
+  </style>
+  <body>
+<!-- Navbar -->
+<div id="navbar"></div>
+
+    <!--Whole container -->
+    <div id="H_container">
+		<!-- content here -->
+		<div id="H_container_child">
+
+
+			 <!-- search bar -->
+			 <div id="H_searchBar">
+				<!-- Destination button -->
+				<button id="H_btn">
+				  <span class="material-symbols-sharp icon">pin_drop</span>
+				  <div class="H_subheading">
+					<p>Going to</p>
+					<p class="H_destination" id="H_mapImporting">
+					  Delhi
+					</p>
+				  </div>
+				</button>
+		
+				<!-- calender buttons -->
+				<button class="H_calender">
+				  <span class="material-symbols-outlined icon">today</span>
+				  <div class="H_subheading">
+					<p>Check-in</p>
+					<p class="H_destination">29 Jun</p>
+				  </div>
+				</button>
+		
+				<button class="H_calender">
+				  <span class="material-symbols-outlined icon">today</span>
+				  <div class="H_subheading">
+					<p>Check-out</p>
+					<p class="H_destination">30 Jun</p>
+				  </div>
+				</button>
+		
+				<!-- Traveller -->
+				<button class="H_calender">
+				  <span class="material-symbols-outlined icon">person_filled</span>
+				  <div class="H_subheading">
+					<p>Travellers</p>
+					<p class="H_destination">1 room, 2 travellers</p>
+				  </div>
+				</button>
+		
+				<!-- Search button -->
+				<button class="H_calender H_searchBtn">
+					Search
+				</button>
+		
+			  </div>
+
+
+			  <!-- sort, filter and result container-->
+			  <div id="H_container_child_child">
+				
+				<!-- map and filter -->
+				<div id="H_filterBox">
+
+					<!-- map -->
+					<div class="H_mapDiv">
+						<div id="H_map">
+							<div class="mapouter">
+								<div class="gmap_canvas">
+								  <iframe
+									width="600"
+									height="500"
+									id="gmap_canvas"
+									frameborder="0"
+									scrolling="no"
+									marginheight="0"
+									marginwidth="0"
+								  ></iframe>
+								</div>
+							  </div>
+						</div>
+						<p class="H_mapName">View in a map</p>
+					</div>
+
+					<!-- property search -->
+					<div class="H_propertySearch">
+						<h2 class="H_propertyHeading">Search by property name</h2>
+						<button class="H_calender_child">
+							<span class="material-symbols-outlined">search</span>
+							<p>e.g. Best Western</p>
+						</button>
+					</div>
+
+					<!-- Filter -->
+					<div id="H_Filter">
+						<h2 class="H_propertyHeading">Filter by</h2>
+
+						<div class="H_Filter_child">
+							<p class="h_Filter_subhead">Popular filters</p>
+							<input class="H_filter_input" type="checkbox">Free airport shuttle
+							<br>
+							<input class="H_filter_input" type="checkbox">Dinner included
+							<br>
+							<input class="H_filter_input" type="checkbox">Chandni Chowk
+							<br>
+							<input class="H_filter_input" type="checkbox">Spa
+							<br>
+							<input class="H_filter_input" type="checkbox">Lunch included
+							
+						</div>
+
+						<div class="H_Filter_child">
+							<p class="h_Filter_subhead">Your budget</p>
+							<input class="H_filter_input" type="checkbox">Less than Rs2,000
+							<br>
+							<input class="H_filter_input" type="checkbox">Rs2,000 to Rs4,000
+							<br>
+							<input class="H_filter_input" type="checkbox">Rs4,000 to Rs8,000
+							<br>
+							<input class="H_filter_input" type="checkbox">Rs8,000 to Rs11,000
+							<br>
+							<input class="H_filter_input" type="checkbox">Greater than Rs11,000
+							
+						</div>
+
+						<div class="H_Filter_child">
+							<p class="h_Filter_subhead">Guest rating</p>
+							<input class="checkbox-round" class="H_filter_input" type="checkbox">Any
+							<br>
+							<input class="checkbox-round" class="H_filter_input" type="checkbox">Wonderful 4.5+
+							<br>
+							<input class="checkbox-round" class="H_filter_input" type="checkbox">Very good 4+
+							<br>
+							<input class="checkbox-round" class="H_filter_input" type="checkbox">Good 3.5+
+							
+						</div>
+
+						<div class="H_Filter_child">
+							<p class="h_Filter_subhead">Property  class</p>
+							<button class="H_filter_rating">1&#9733;</button>
+							<button class="H_filter_rating">2&#9733;</button>
+							<button class="H_filter_rating">3&#9733;</button>
+							<button class="H_filter_rating">4&#9733;</button>
+							<button class="H_filter_rating">5&#9733;</button>
+						</div>
+
+						<div class="H_Filter_child">
+							<p class="h_Filter_subhead">Payment type</p>
+							<input class="H_filter_input" type="checkbox">Fully refundable
+							<br>
+							<input class="H_filter_input" type="checkbox">Reserve now, pay later
+								
+						</div>
+
+						<div class="H_Filter_child">
+							<p class="h_Filter_subhead">Property type</p>
+							<input class="H_filter_input" type="checkbox">Condominium resort
+							<br>
+							<input class="H_filter_input" type="checkbox">Campsite
+							<br>
+							<input class="H_filter_input" type="checkbox">Condo
+							<br>
+							<a class="H_seeMore" href="#">See more</a>
+						</div>
+
+						<div class="H_Filter_child">
+							<p class="h_Filter_subhead">Area</p>
+							<input class="checkbox-round" class="H_filter_input" type="checkbox">Delhi (and vicinity)
+							<br>
+							<input class="checkbox-round" class="H_filter_input" type="checkbox">Dwarka
+							<br>
+							<input class="checkbox-round" class="H_filter_input" type="checkbox">Rajouri Garden
+							<br>
+							<a class="H_seeMore" href="#">See more</a>
+
+						</div>
+
+						<div class="H_Filter_child">
+							<p class="h_Filter_subhead">Popular locations</p>
+							<input class="checkbox-round" class="H_filter_input" type="checkbox">India Gate
+							<br>
+							<input class="checkbox-round" class="H_filter_input" type="checkbox">Jama Masjid
+							<br>
+							<input class="checkbox-round" class="H_filter_input" type="checkbox">Chandni Chowk
+							<br>
+							<a class="H_seeMore" href="#">See more</a>
+
+						</div>
+
+						<div class="H_Filter_child">
+							<p class="h_Filter_subhead">Meal plans available</p>
+							<input class="H_filter_input" type="checkbox">Breakfast included
+							<br>
+							<input class="H_filter_input" type="checkbox">Lunch included
+							<br>
+							<input class="H_filter_input" type="checkbox">Dinner included
+							<br>
+							<a class="H_seeMore" href="#">See more</a>
+						</div>
+
+						<div class="H_Filter_child">
+							<p class="h_Filter_subhead">Amenities</p>
+							<input class="H_filter_input" type="checkbox">Free airport shuttle
+							<br>
+							<input class="H_filter_input" type="checkbox">Gym
+							<br>
+							<input class="H_filter_input" type="checkbox">Spa
+							<br>
+							<a class="H_seeMore" href="#">See more</a>
+						</div>
+
+						<div class="H_Filter_child">
+							<p class="h_Filter_subhead">Expedia rewards</p>
+							<input class="H_filter_input" type="checkbox">VIP Access properties 
+							<br>
+							<span class="H_smallDetails">Top-rated stays with member perks</span>
+							<br>
+							<input class="H_filter_input" type="checkbox">Member Prices 
+							<br>
+							<span class="H_smallDetails">Get instant savings when you become a member</span>
+
+						</div>
+
+						<div class="H_Filter_child">
+							<p class="h_Filter_subhead">Accessibility</p>
+							<input class="H_filter_input" type="checkbox">Wheelchair-accessible parking
+							<br>
+							<input class="H_filter_input" type="checkbox">Lift
+							<br>
+							<input class="H_filter_input" type="checkbox">Accessible bathroom
+							<br>
+							<a class="H_seeMore" href="#">See more</a>
+						</div>
+
+						<div class="H_Filter_child">
+							<p class="h_Filter_subhead">Traveller experience</p>
+							<input class="H_filter_input" type="checkbox">LGBTQ
+							<br>
+							<span class="H_smallDetails">See properties that pledge to make all guests feel safe, welcome and respected.</span>
+							<br>
+							<input class="H_filter_input" type="checkbox">Business-friendly
+							<br>
+							<span class="H_smallDetails">See properties with amenities to help you work comfortably, like WiFi and breakfast.</span>
+							<br>
+							<input class="H_filter_input" type="checkbox">Family-friendly
+							<br>
+							<span class="H_smallDetails">See properties that include family essentials like in-room conveniences and activities for the kids.</span>
+							<br>
+						</div>
+
+
+					</div>
+
+				</div>
+
+
+				<!-- appended results -->
+				<div id="H_result_box">
+
+					<!-- sorting box -->
+					<div id="H_recommended">
+						<p class="h_Filter_subhead">See how we pick our recommended properties. &#x24D8;</p>
+						<div class="H_sort_box">
+							<label for="sort" class="H_sort_label">Sort by</label>
+							<br>
+							<select name="sort" id="H_sort" class="uitk-field-select">
+								<option value="RECOMMENDED">Recommended</option>
+								<option value="PRICE_LOW_TO_HIGH">Price</option>
+								<option value="DISTANCE">Distance from city centre</option>
+								<option value="REVIEW">Guest rating + our choices</option>
+								<option value="PRICE_RELEVANT">Price + our choices</option>
+								<option value="PROPERTY_CLASS">Property class</option>
+							</select>
+						</div>
+					</div>
+
+
+					<!-- result cards -->
+					<div id="H_append_container">
+
+					</div>
+			  </div>
+
+				</div>
+			
+    	 </div>
+
+		 	<!-- advertisment -->
+			 <div id="H_ads">
+				<img class="H_adImg" src="https://tpc.googlesyndication.com/simgad/4652945743188291985?" >
+			</div>
+    </div>
+  </body>
+</html>
+<script src="./test.js"></script>
+
+<script type="module">
+
+import navBar from "./components/navbar_import.js"
+
+let nav = document.getElementById("navbar");
+nav.innerHTML= navBar;
+
+document.getElementById("more_travel").addEventListener("click",showpopup);
+document.getElementById("navbar").addEventListener("dblclick",closepopup);
+
+function showpopup(){
+let shoepopup = document.getElementById("pop");
+shoepopup.classList.add("popup-show");
+console.log("sjbg");
+}
+
+function closepopup(){
+let shoepopup = document.getElementById("pop");
+shoepopup.classList.remove("popup-show");
+}
+</script>

@@ -1,0 +1,136 @@
+
+#H_append_container{
+    width: 100%;
+    /* border: 1px solid; */
+    margin-top: 0.85rem;
+    display: grid;
+    gap: 1rem;
+}
+
+.H_result_child{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: #fff;
+
+}
+ .H_imgdiv{
+    width: 30%;
+    /* border: 1px solid teal; */
+    height: auto;
+    
+} 
+
+.H_hotel_img{
+    width: 100%;
+    height:100%;
+}
+
+.H_infodiv{
+    width: 68%;
+    text-align: start;
+    display: grid;
+    
+    
+}
+
+.H_namediv{
+    width: 100%;
+    /* border: 1px solid; */
+    line-height: 0.2;
+}
+
+.H_servicediv{
+    width: 40%;
+    height: 1.3rem;
+    /* border: 1px solid; */
+    gap: 1.1rem;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    /* justify-content: space-around; */
+}
+
+.H_desc{
+    width: 100%;
+    /* height: 4.3rem; */
+    display: flex;
+    justify-content: space-between;
+    line-height: 0;
+    margin-top: 10px;
+    /* border: 1px solid; */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    
+}
+
+.H_specDesc{
+    font-weight: bold;
+    line-height: 0;
+   
+}
+
+.H_description{
+    line-height: 0.9;
+}
+.H_descdiv{
+    width: 60%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+#H_Bookbtn{
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+    height: 1.8rem;
+   border-radius: 5px;
+    margin-right: 0.8rem;
+    cursor: pointer;
+}
+
+.H_customerThingdiv{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+
+.H_refunddiv{
+    /* border: 1px solid; */
+    width: 53%;
+    line-height: 0;
+    
+  
+}
+
+.H_fullyrefund{
+    width: 60%;
+    /* border: 1px solid; */
+    /* white-space: pre; */
+    line-height: 1;
+    color: rgb(73, 123, 94);
+}
+
+.H_reviews_child{
+    align-items: baseline;
+}
+
+.H_priceDiv{
+    width: 25%;
+    height: auto;
+    line-height: 0.2;
+    text-align: center;
+    /* border: 1px solid teal; */
+}
+
+.H_mainprice{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+

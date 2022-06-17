@@ -2,9 +2,12 @@ body{
     padding: 0%;
     margin: 0%;
 }
+*{
+    font-family: 'Open Sans', sans-serif;
+}
 h1{
     width: 80%;
-    font-size: 7vw;
+    font-size: 36px;
     margin: auto;
     text-align: center;
     padding: 1vw;
@@ -12,11 +15,11 @@ h1{
 }
 .TS_classP{
     width: 80%;
-    font-size: 2vw;
+    font-size: 16px;
     margin: auto;
     text-align: center;
-    padding: 1vw;
-    padding-bottom: 4vw;
+    padding: 5px;
+    padding-bottom: 30px;
     color: rgb(30, 30, 59);
 }
 .sD_OFF{
@@ -33,7 +36,7 @@ h1{
     display: grid;
     grid-template-columns: repeat(3,2fr);
     grid-template-rows: repeat(5,4fr);
-    gap: 10px;
+    gap: 20px;
     margin: auto;
 }
 #tsContainer>div{
@@ -47,7 +50,7 @@ h1{
 }
 img{
     width: 100%;
-    height: 250px;
+    height: 150px;
     border-top-left-radius: 13px;
     border-top-right-radius: 13px ;
 }
@@ -60,8 +63,10 @@ h3,p{
     padding: 0%;
     margin: 0%;
     margin-left: 10px;
+
     
 }
+
 
 
 /* Media Tablet */
@@ -78,3 +83,13 @@ h3,p{
 
     }
   }
+ul{
+    font-size: x-small;
+}
+#tC{
+    margin-top: 40px;
+}
+#tandC{
+width:80%;
+margin: auto;
+}

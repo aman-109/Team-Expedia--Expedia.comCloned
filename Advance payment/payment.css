@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#logo_img{
+    height: 2vw;
+    width: 12vw;
+    position: relative;
+    top: 0.3vw;
+}
+
+.sign_img{
+    height: 1.5vw;
+    width: 1.5vw;
+    margin-left: 2vw;
+    position: relative;
+    top: 0.3vw;
+
+}
+
+.sign_img1{
+    height: 1.0vw;
+    width: 1.0vw;
+    margin-left: 2vw;
+    position: relative;
+    top: 0.3vw;
+
+}
+#header_head{
+    display: flex;
+   /* padding-left: 7vw; */
+   place-items: center;
+   font-size: 1.2vw;
+   justify-content: space-around;
+   font-family: Arial, Helvetica, sans-serif;
+   height: 5vw;
+   border-top: 0ch;
+   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#title{
+    margin-top: 1vw;
+    margin-left: 10vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#flex_second{
+    display: flex;
+    margin-top: 1vw;
+    margin-left: 10vw;
+    font-family: Arial, Helvetica, sans-serif;
+   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+height: 4vw;
+padding-top: 0.8vw;
+width: 70vw;
+
+}
+#fund{
+    margin-right: 1vw;
+    height: 3.5vw;
+  
+}
+#free{
+    font-weight: bold;
+}
+#cancel{
+    color: rgb(180, 176, 176);
+    font-size: 1vw;
+    margin-top: 0.3vw;
+}
+#below_option{
+    height: 26vw;
+    width: 48vw;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    /* border: 2px solid black; */
+    padding-top: 2vw;
+    
+}
+#append_detail {
+    height: 26vw;
+    width: 26.5vw;
+    /* border: 2px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    margin-right: 18.9vw;
+}
+
+#second_div{
+    display: flex;
+    padding-left: 10vw;
+}
+#para1{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    /* border: 2px solid black; */
+    height: 2.5vw;
+    padding-top: 0.8vw;
+    width: 48vw;
+}
+
+#name{
+    height: 2vw;
+    width: 15vw;
+    margin-top: 0.5vw;
+    padding-left: 0.8vw;
+    color: rgb(81, 81, 212);
+}
+#surname{
+    height: 2vw;
+    width: 15vw;
+    margin-top: 0.5vw;
+    padding-left: 0.8vw;
+    color: rgb(81, 81, 212);
+
+
+}
+
+#select_country {
+    position: relative;
+    bottom: 15vw;
+    left: 4vw;
+    height: 2vw;
+    width: 6vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1vw;
+}
+
+#phone_number{
+    position: relative;
+    bottom: 15vw;
+    left: 5vw;
+    height: 2vw;
+    width: 20vw;
+    padding-left: 1vw;
+    font-size: 1vw;
+    
+}
+#check_box {
+    height: 1vw;
+    width: 1vw;
+    position: relative;
+    bottom: 11vw;
+    left: -23vw;
+}
+#trip{
+    height: 1vw;
+    width: 1vw;
+    position: relative;
+    bottom: 11vw;
+    
+    left: -22vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+
+}
+#request {
+    position: relative;
+    left: -47vw;
+    bottom: 9vw;
+    font-size: 0.9vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#special {
+    position: relative;
+    left: -58.2vw;
+    bottom: 6vw;
+    font-size: 0.9vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#bank_details{
+    height:auto;
+    width: 48vw;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    /* border: 2px solid black; */
+    margin-left: 10vw;
+   position: relative;
+   bottom: 3vw;
+}
+#Info{
+    margin-left: 6vw;
+    /* margin-top: 1vw; */
+padding-top: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+    border: 2px solid black;
+    height: 1vw;
+    width: 40vw;
+    border-top: 0ch;
+    border-left: 0ch;
+    border-right: 0ch;
+}
+
+
+.logo_bank{
+    height: 2vw;
+}
+#logo_bank{
+    margin-left: 6vw;
+    margin-top: 1vw;
+}
+#card{
+    height: 2.5vw;
+    width: 29vw;
+    font-size: 1.2vw;
+ padding-left: 2vw;
+ box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+#name_card{
+    margin-left: 6vw;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1vw;
+    /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+}
+#card_num{
+    margin-left: 6vw;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1vw;
+    /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+   
+}
+#card_number{
+    height: 2.5vw;
+    width: 21vw;
+    font-size: 1.2vw;
+    padding-left: 2vw;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+#month{
+    margin-left: 6vw;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1vw;
+    
+}
+#mon{
+    height: 2.8vw;
+    width: 6vw;
+    font-size: 1.2vw;
+    background-color: rgb(206, 206, 209);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+}
+#year{
+    height: 2.8vw;
+    width: 6vw;
+    font-size: 1.2vw;
+    background-color: rgb(206, 206, 209);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+
+}
+#code_c{
+    margin-left: 0vw;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1vw;
+}
+#code{
+    height: 2.5vw;
+    width: 5vw;
+    font-size: 1.2vw;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    /* padding-left: 2vw; */
+}
+#terr{
+    margin-left: 0vw;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1vw;
+}
+#desh{
+    height: 2.8vw;
+    width: 24vw;
+    font-size: 1.2vw;
+    background-color: rgb(206, 206, 209);
+
+
+}
+#pan{
+    margin-left: 0vw;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1vw;
+
+}
+#pancard{
+    height: 2vw;
+    width: 14vw;
+    font-size: 1.2vw;
+    padding-left: 2vw;
+    margin-bottom: 2vw;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+#img_code{
+    height: 10vw;
+}
+#p2{
+    margin-top: 1vw;
+    color: red;
+    height: 2.8vw;
+    width: 13vw;
+    /* border: 2px solid rgb(51, 41, 25); */
+}
+#net{
+    font-size: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#para11{
+    border-top: 0ch;
+    border-left: 0ch;
+    border-bottom: 0ch;
+    margin-top: 1vw;
+}
+#netbanking:hover,#debit:hover{
+    cursor: pointer;
+}
+#bank_append {
+    height: auto;
+    width: 48vw;
+    /* border: 2px solid black; */
+    margin-left: 10vw;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+}
+#book_head{
+    height: 2vw;
+    width: 47vw;
+    border: 2px solid black;
+    font-size: 1.5vw;
+    padding-top: 1vw;
+    padding-left: 1vw;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 0ch;
+    border-left: 0ch;
+    border-right: 0ch;
+}
+#book_email{
+    height: 1vw;
+    width: 47vw;
+    padding-left: 2vw;
+    font-size: 1.2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding-top: 2vw;
+
+}
+#book_Info{
+    height: 2.5vw;
+    width: 23vw;
+    margin-top: 0%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+#book_checkbox{
+    height: 0.9vw;
+    width: 0.9vw;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+#check_box_book{
+    font-family: Arial, Helvetica, sans-serif;
+    /* padding-left: 2vw; */
+    margin-top: 1.5vw;
+    border: 2px solid black;
+    height: 2vw;
+    border-top: 0ch;
+    border-left: 0ch;
+    border-right: 0ch;
+    width: 42vw;
+    margin-left: 2vw;
+
+}
+
+#create_password,#confirm_password{
+height: 2.2vw;
+width: 17vw;
+font-size: 1vw;
+box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+#sideBar {
+    height: 20vw;
+    width: 21vw;
+    border: 2px solid black;
+    position: relative;
+    left: 49vw;
+    bottom: 50vw;
+}
+#Complete{
+    width: 48vw;
+    height: auto;
+    border: 2px solid black;
+    margin-left: 10vw;
+    margin-bottom: 2vw;
+}
+
+#scroll{
+   width: 48vw;
+   overflow-y: scroll;height: 10vw;
+   padding-left: 1vw;
+   font-size: 1vw;
+   color: rgb(173, 171, 171);
+}
+#booking{
+    height: 3vw;
+border-radius: 0.2vw;
+font-weight: bold;
+background-color: rgb(167, 167, 35);
+    width:13vw;
+    font-size: 1vw;
+    margin-top: 1vw;
+    margin-left: 1vw;
+}

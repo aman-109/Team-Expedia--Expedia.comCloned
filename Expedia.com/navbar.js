@@ -2,7 +2,7 @@
 
 
 
-import navBar from "/navbar_import.js"
+import navBar from "./navbar_import.js"
 
 let nav = document.getElementById("navbar");
 nav.innerHTML=navBar;

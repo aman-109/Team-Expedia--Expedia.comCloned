@@ -1,0 +1,145 @@
+#navbar{
+    display: flex;
+    height: 80px;
+  
+    overflow: visible;
+    font-size: xx-small;
+    justify-content: center;
+    justify-content: space-between;
+    padding-left: 50px;
+   border-bottom: 2px solid rgb(184, 167, 167);
+    margin-bottom: 50px;
+
+}
+#option{
+    
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    
+}
+#globe{
+    height: 20px;
+   cursor: pointer;
+    
+}
+#bell{
+    height: 46px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 5px;
+    cursor: pointer;
+    color: aliceblue;
+}
+#img{
+  
+    display: flex;
+    align-items: center;
+    width: 300px;
+    justify-content: space-between;
+   margin-right: 20px;
+    
+padding-right: -50px;
+
+}
+#img>img{
+    height: 30px;
+    
+}
+
+#arrow{
+    margin-bottom: -8px;
+}
+#support{
+    width: 100px;
+    color: black;
+    margin-right: 35px;
+    margin-left: 25px;
+   
+   text-decoration-line: none;
+}
+#support:hover{
+    color: cornflowerblue;
+}
+
+#gloveh3{
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    margin-right: 10px;
+}
+#english{
+    color: black;
+      padding-top: 2px;
+    text-decoration-line: none;
+}
+#english:hover{
+    color: cornflowerblue;
+}
+#trips{
+    color: black;
+    text-decoration-line: none;
+}
+#trips:hover{
+    color: cornflowerblue;
+}
+#singin{
+    color: black;
+    text-decoration-line: none;
+}
+#singin:hover{
+    color: cornflowerblue;
+}
+#more_travel{
+    cursor: pointer;
+    position: relative;
+    background-color: white;
+    border: 0px;
+    padding-bottom: 5px;
+}
+#more_travel:hover{
+    color:cornflowerblue ;
+}
+
+.popup{
+   
+   width: 350px;
+   height: 400px;
+   position: absolute;
+   background-color: white;
+   border-radius: 10px;
+   margin-bottom: -20px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   visibility: hidden;
+}
+.optionselect{
+    width: 100%;
+    height: 12%;
+   
+    cursor: pointer;
+    display: flex;
+    justify-content: left;
+}
+.optionselect:hover{
+    background-color:rgb(133, 177, 213) ;
+}
+.optionselect>p{
+     font-size: medium;
+     margin-left: 10px;
+     
+}
+.optionselect>img{
+    height: 45px;
+    margin-left: 30px;
+}
+.optionselect>h1{
+    margin-left: 40px;
+    font-size: medium;
+}
+
+.popup-show{
+    visibility: visible;
+}

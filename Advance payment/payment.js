@@ -12,7 +12,7 @@ cvv.style.display = "block";
     var div_card = document.createElement("div");
     var img_code  = document.createElement("img");
 
-img_code.src = "https://cdn-icons.flaticon.com/png/512/5086/premium/5086190.png?token=exp=1655456643~hmac=4a1b2d58df8f42640cca92d2701393ab";
+img_code.src ="./credit-card.png";
 var p2 = document.createElement("p");
 p2.innerText = "Please enter a valid card security code."
 img_code.setAttribute("id","img_code")
@@ -156,18 +156,20 @@ function append_Info(arr){
     var box = document.getElementById("append_detail");
     // box.innerHTML = null
     var main_div_box = document.createElement("div")
+    main_div_box.setAttribute("id","main_div_box")
     var img = document.createElement("img");
     img.src = arr.url;
+    img.setAttribute("id","hotel_img")
     var name = document.createElement("p");
     name.setAttribute("id","name")
-    name.innerText ="Name :"+" "+ arr.name;
+    name.innerText =" "+ arr.name;
 
     var location = document.createElement("p");
     location.setAttribute("id","location")
-    location.innerText="Location :"+" "+ arr.location;
+    location.innerText=" "+ arr.location;
     var total_price = document.createElement("p");
     total_price.setAttribute("id","total_price")
-    total_price.innerText ="Price :"+" "+ arr.price;
+    total_price.innerText ="Total ₹:"+" "+ arr.price;
     console.log("hellow")
 
 
@@ -184,8 +186,9 @@ append_Info(arr);
 
 document.getElementById("booking").addEventListener("click",pops)
 function pops(){
-
-
+alert("Order Placed ! Thank You for Order....")
+window.location.href = "../index.html"
+console.log(0)
 }
 
 document.getElementById("header_head").addEventListener("click",sigin);

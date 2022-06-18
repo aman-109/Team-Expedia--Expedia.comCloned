@@ -56,6 +56,9 @@
     opacity: 0.4;
   
 }
+#sign_in:hover{
+    cursor: pointer;
+}
 .sign_in{
     height: 1vw;
    
@@ -89,6 +92,9 @@
 }
 #create{
     color: blue;
+}
+#create:hover{
+    cursor: pointer;
 }
 #continue_logo{
     text-align: center;

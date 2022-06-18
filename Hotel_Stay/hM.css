@@ -1,0 +1,29 @@
+#HM_selectDiv{
+    height: 2.3rem;
+    width: 40%;
+    border: 1px solid black;
+    margin-top: 20px;
+    font-size: 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#HM_gionee{
+    border: 1px solid;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#HM_select{
+    border: 0;
+    width: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+

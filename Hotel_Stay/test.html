@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hotel Stay</title>
+    <title>Document</title>
     <link rel="stylesheet" href="./style/hotel.css" />
 	<link rel="stylesheet" href="./style/hotelResult.css">
-	<!-- <link rel="stylesheet" href="./style/navbar.css"> -->
+	<link rel="stylesheet" href="./navbar.css">
 	<link rel="stylesheet" href="./style/footer.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,12 +32,12 @@
           height: 5.5rem;
           width: 100%;
         }
-        .gmap_canvas {
+    .gmap_canvas {
             overflow: hidden;
             background: none !important;
             height: 5.5rem;
             width: 100%;
-          }
+        }
   </style>
   <body>
 <!-- Navbar -->
@@ -340,7 +340,29 @@
 
 <script type="module">
 
+import navBar from "/navbar_import.js"
+
+let nav = document.getElementById("navbar");
+nav.innerHTML=navBar;
+
+document.getElementById("more_travel").addEventListener("click",showpopup);
+document.getElementById("navbar").addEventListener("dblclick",closepopup);
+
+function showpopup(){
+let shoepopup = document.getElementById("pop");
+shoepopup.classList.add("popup-show");
+console.log("sjbg");
+}
+
+function closepopup(){
+let shoepopup = document.getElementById("pop");
+shoepopup.classList.remove("popup-show");
+}
+
     import footer from "./components/footer.js"
 
     document.getElementById("footer").innerHTML=footer()
 </script>
+
+
+

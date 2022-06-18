@@ -1,14 +1,12 @@
-body{
+/* body{
     padding: 0%;
     margin: 0%;
     background-color: rgb(243, 240, 240);
-}
+} */
 *{
-    font: 1.2em "Fira Sans", sans-serif;
-   
-    /* font-weight: 400; */
-    
+    font-family: 'Open Sans', sans-serif;
 }
+
 #arrow{
 height: 30px;
 }
@@ -66,13 +64,13 @@ h1{
     justify-content: right;
 
 }
-h3,p{
+/* h3,p{
     padding: 0%;
     margin: 0%;
     margin-left: 10px;
 
     
-}
+} */
 
 
 

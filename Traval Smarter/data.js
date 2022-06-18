@@ -174,6 +174,7 @@ data.forEach((el) => {
 
     let image=document.createElement("img");
     image.src=el.image;
+    image.id="TS_image"
 
     let name=document.createElement("h3");
     name.innerHTML=el.title;

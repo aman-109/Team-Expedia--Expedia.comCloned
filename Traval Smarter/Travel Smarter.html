@@ -12,7 +12,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./navbar/navbar.css">
+    <!-- <link rel="stylesheet" href="./navbar/navbar.css"> -->
+    <link rel="stylesheet" href="../Hotel_Stay/style/footer.css">
+	<!-- <link rel="stylesheet" href="../Hotel_Stay/style/hotel.css"> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+
 </head>
 <body>
     <div id="navbar"></div>
@@ -26,7 +32,7 @@
 
 
 
-    <div id="searchTS"></div>
+    <div id="H_container"> </div>
     <div id="tandC">
     <h3 id="tC">Terms and Conditions</h3> 
    <ul>
@@ -44,10 +50,19 @@
     <li>Expedia’s usual booking terms and conditions apply.</li>
 </ul>
     </div>
+
+    <!-- search -->
+    
    
    <div id="footer"></div>
 
 </body>
 </html>
 <script src="data.js"></script>
-<script src="./navbar/navbar.js" type="module"></script>
+<!-- <script src="./navbar/navbar.js" type="module"></script> -->
+<script type="module">
+
+    import footer from "../Hotel_Stay/components/footer.js"
+
+    document.getElementById("footer").innerHTML=footer()
+</script>

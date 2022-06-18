@@ -8,9 +8,9 @@ let data = [
         special:"Comfiest Beds, Delicious Breakfast",
         description:"Stay at unbeatable rates with complimentary breakfast and wi-fi. Free stay for kids below 12 years of age.",
         refund:"Fully refundable Reserve now, pay later",
-        reviews:{rating: "4.5/5", comment: "Wonderful",reviews:"(642 reviews)"},
+        reviews:{rating: "4.5/5", comment: "Wonderful",reviews:642},
         seats: " We have 5 left at",
-        price:" Rs 11,250",
+        price: 11250 ,
         total_price: "Rs 13,275 total"
     },
     {
@@ -21,9 +21,9 @@ let data = [
         special:"",
         description:"",
         refund:"Fully refundable Reserve now, pay later",
-        reviews:{rating: "4.3/5", comment: "Excellent",reviews:"(524 reviews)"},
+        reviews:{rating: "4.3/5", comment: "Excellent",reviews:524},
         seats: "We have 5 left at",
-        price:" Rs 8,650",
+        price:8650,
         total_price: "Rs 10,207 total"
     },
     {
@@ -34,9 +34,9 @@ let data = [
         special:"",
         description:"",
         refund:"Fully refundable Reserve now, pay later",
-        reviews:{rating: "4.2/5", comment: "Very good",reviews:"(164 reviews)"},
+        reviews:{rating: "4.2/5", comment: "Very good",reviews:164},
         seats: "35% off",
-        price:" Rs 11,049",
+        price:11049,
         total_price: "Rs 13,038 total"
     },
     {
@@ -47,9 +47,9 @@ let data = [
         special:" The Capital's Only Modern Palace Hotel",
         description:"Discover rich diversity of cuisines, historic landmarks. International airport : 15 km, 10 mins drive from India Gate",
         refund:"Fully refundable Reserve now, pay later",
-        reviews:{rating: "4.8/5", comment: "Exceptional",reviews:"(997 reviews)"},
+        reviews:{rating: "4.8/5", comment: "Exceptional",reviews:997},
         seats: " ",
-        price:" Rs 15,000",
+        price:15000,
         total_price: "Rs 17,700 total"
     },
     {
@@ -60,9 +60,9 @@ let data = [
         special:"",
         description:"",
         refund:"",
-        reviews:{rating: "4.5/5", comment: "Wonderful",reviews:"(996 reviews)"},
+        reviews:{rating: "4.5/5", comment: "Wonderful",reviews:996},
         seats: " ",
-        price:" Rs 10,800",
+        price:10800,
         total_price: "Rs 12,744 total"
     },
     {
@@ -73,9 +73,9 @@ let data = [
         special:"",
         description:"",
         refund:"Fully refundable",
-        reviews:{rating: "4.5/5", comment: "Wonderful",reviews:"(1000 reviews)"},
+        reviews:{rating: "4.5/5", comment: "Wonderful",reviews:1000},
         seats: " ",
-        price:" Rs 8,075",
+        price:8075,
         total_price: "Rs 9,529 total"
     },
        {
@@ -86,9 +86,9 @@ let data = [
         special:"",
         description:"",
         refund:"",
-        reviews:{rating: "4.9/5", comment: "Exceptional",reviews:"(154 reviews)"},
+        reviews:{rating: "4.9/5", comment: "Exceptional",reviews:154},
         seats: " ",
-        price:" Rs 14,175",
+        price:14175,
         total_price: "Rs 16,727 total"
     },
     {
@@ -99,9 +99,9 @@ let data = [
         special:"",
         description:"",
         refund:"Fully refundable",
-        reviews:{rating: "4.2/5", comment: "Very good",reviews:"(356 reviews)"},
+        reviews:{rating: "4.2/5", comment: "Very good",reviews:356},
         seats: "We have 5 left at",
-        price:" Rs 7,200",
+        price:7200,
         total_price: "Rs 8,064 total"
     },
     {
@@ -112,9 +112,9 @@ let data = [
         special:"",
         description:"",
         refund:"Fully refundable Reserve now, pay later",
-        reviews:{rating: "4.2/5", comment: "Very good",reviews:"(400 reviews)"},
+        reviews:{rating: "4.2/5", comment: "Very good",reviews:400},
         seats: "",
-        price:" Rs 749",
+        price:749,
         total_price: "Rs 749 total"
     },
     {
@@ -125,9 +125,9 @@ let data = [
         special:"",
         description:"",
         refund:"Fully refundable Reserve now, pay later",
-        reviews:{rating: "4.7/5", comment: "Exceptional",reviews:"(457 reviews)"},
+        reviews:{rating: "4.7/5", comment: "Exceptional",reviews:457},
         seats: "",
-        price:" Rs 16,110",
+        price:16110,
         total_price: "Rs 19,010 total"
     },
     {
@@ -138,9 +138,9 @@ let data = [
         special:"",
         description:"",
         refund:"Fully refundable Reserve now, pay later",
-        reviews:{rating: "4.2/5", comment: "Very good",reviews:"(164 reviews)"},
+        reviews:{rating: "4.2/5", comment: "Very good",reviews:164},
         seats: "35% off",
-        price:" Rs 11,049",
+        price:11049,
         total_price: "Rs 13,038 total"
     },
     {
@@ -151,9 +151,9 @@ let data = [
         special:"",
         description:"",
         refund:"Fully refundable Reserve now, pay later",
-        reviews:{rating: "3.5/5", comment: "Good",reviews:"(2 reviews)"},
+        reviews:{rating: "3.5/5", comment: "Good",reviews:2},
         seats: "",
-        price:" Rs 2,560",
+        price:2560,
         total_price: "Rs 2,867 total"
     },
     {
@@ -164,9 +164,9 @@ let data = [
         special:"",
         description:"",
         refund:"Fully refundable Reserve now, pay later",
-        reviews:{rating: "4.2/5", comment: "Very good",reviews:"(308 reviews)"},
+        reviews:{rating: "4.2/5", comment: "Very good",reviews:308},
         seats: "",
-        price:" Rs 8,200",
+        price:8200,
         total_price: "Rs 9,676 total"
     },
     {
@@ -177,9 +177,9 @@ let data = [
         special:"",
         description:"",
         refund:"Fully refundable Reserve now, pay later",
-        reviews:{rating: "4.1/5", comment: "Very good",reviews:"(1000 reviews)"},
+        reviews:{rating: "4.1/5", comment: "Very good",reviews:1000},
         seats: "",
-        price:" Rs 6,399",
+        price:6399,
         total_price: "Rs 7,487 total"
     },
     {
@@ -190,9 +190,9 @@ let data = [
         special:"",
         description:"",
         refund:"Fully refundable Reserve now, pay later",
-        reviews:{rating: "4.0/5", comment: "Very good",reviews:"(263 reviews)"},
+        reviews:{rating: "4.0/5", comment: "Very good",reviews:263},
         seats: "",
-        price:" Rs 2,900",
+        price:2900,
         total_price: "Rs 3,248 total"
     },
 
@@ -205,6 +205,35 @@ let delhiData= JSON.parse(localStorage.getItem("delhiData"))
 // console.log(delhiData)
 let result_box =document.getElementById("H_append_container")
 display(delhiData)
+
+
+//Sort Functionality
+
+function handleSort(){
+    let selected= document.getElementById("H_sort").value
+    if(selected=="LTH")
+    {
+        data.sort(function(a,b){
+            return a.price-b.price
+        })
+        display(data)
+    }
+    if(selected=="HTL")
+    {
+        data.sort(function(a,b){
+            return b.price-a.price
+        })
+        display(data)
+    }
+    if(selected=="REVIEW")
+    {
+        data.sort(function(a,b){
+            return b.reviews.reviews - a.reviews.reviews
+        })
+        display(data)
+    }
+}
+
 
 function display(data)
 {
@@ -308,7 +337,7 @@ function display(data)
         refundspecial.append(refund)
 
         let reviews=document.createElement("p")
-        reviews.innerText=`${ele.reviews.rating}⭐ ${ele.reviews.comment} ${ele.reviews.reviews}`
+        reviews.innerText=`${ele.reviews.rating}⭐ ${ele.reviews.comment} (${ele.reviews.reviews} reviews)`
         reviews.setAttribute("class","H_reviews_child")
         refunddiv.append(refundspecial,reviews)
 
@@ -323,7 +352,7 @@ function display(data)
 
 
         let price=document.createElement("p")
-        price.innerText=ele.price
+        price.innerText=`Rs ${ele.price}`
         price.setAttribute("class","H_mainprice")
 
 
@@ -350,7 +379,8 @@ function display(data)
 function clickedFun(any)
 {
     localStorage.setItem("Booked",JSON.stringify(any))
-    window.location.href=""
+    window.location.href="../Advance payment/payment.html"
+    
 }
 
 

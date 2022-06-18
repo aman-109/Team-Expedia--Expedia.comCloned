@@ -7,7 +7,14 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style/hotel.css" />
 	<link rel="stylesheet" href="./style/hotelResult.css">
-	<link rel="stylesheet" href="./style/navbar.css">
+	<!-- <link rel="stylesheet" href="./style/navbar.css"> -->
+	<link rel="stylesheet" href="./style/footer.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Teko:wght@600&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Teko:wght@600&display=swap" rel="stylesheet">		
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link
       rel="stylesheet"
@@ -296,13 +303,12 @@
 						<div class="H_sort_box">
 							<label for="sort" class="H_sort_label">Sort by</label>
 							<br>
-							<select name="sort" id="H_sort" class="uitk-field-select">
+							<select name="sort" id="H_sort" onChange="handleSort()">
 								<option value="RECOMMENDED">Recommended</option>
-								<option value="PRICE_LOW_TO_HIGH">Price</option>
-								<option value="DISTANCE">Distance from city centre</option>
-								<option value="REVIEW">Guest rating + our choices</option>
-								<option value="PRICE_RELEVANT">Price + our choices</option>
-								<option value="PROPERTY_CLASS">Property class</option>
+								<option value="LTH">Price-Low to High</option>
+								<option value="HTL">Price-High to Low</option>
+								<option value="REVIEW">Review</option>
+								
 							</select>
 						</div>
 					</div>
@@ -323,28 +329,18 @@
 				<img class="H_adImg" src="https://tpc.googlesyndication.com/simgad/4652945743188291985?" >
 			</div>
     </div>
+
+
+<!-- footer -->
+<div id="footer"></div>
+
   </body>
 </html>
 <script src="./test.js"></script>
 
 <script type="module">
 
-import navBar from "./components/navbar_import.js"
+    import footer from "./components/footer.js"
 
-let nav = document.getElementById("navbar");
-nav.innerHTML= navBar;
-
-document.getElementById("more_travel").addEventListener("click",showpopup);
-document.getElementById("navbar").addEventListener("dblclick",closepopup);
-
-function showpopup(){
-let shoepopup = document.getElementById("pop");
-shoepopup.classList.add("popup-show");
-console.log("sjbg");
-}
-
-function closepopup(){
-let shoepopup = document.getElementById("pop");
-shoepopup.classList.remove("popup-show");
-}
+    document.getElementById("footer").innerHTML=footer()
 </script>

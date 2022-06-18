@@ -3,9 +3,11 @@
 
 
 document.getElementById("code").addEventListener("click",runprogram);
-
+var cvv = document.getElementById("cvv");
 function runprogram(){
-    var cvv = document.getElementById("cvv");
+cvv.style.display = "block";
+    
+    // var cvv = document.getElementById("cvv");
     cvv.innerHTML = null
     var div_card = document.createElement("div");
     var img_code  = document.createElement("img");
@@ -21,10 +23,11 @@ cvv.append(div_card);
 
 }
 
-document.getElementById("bank_details").addEventListener("click",remove);
+document.getElementById("bank_details").addEventListener("keydown",remove);
 function remove(){
-    console.log(1)
-    document.getElementById("code").removeEventListener("click",runprogram)
+
+cvv.style.display = "none";
+
 }
 
 
@@ -32,7 +35,6 @@ function remove(){
 document.getElementById("netbanking").addEventListener("click",block);
 
 function block(){
-
 
 
     var one = document.getElementById("logo_bank");
@@ -56,7 +58,7 @@ function block(){
     var box = document.getElementById("bank_details");
     box.style.height = "8vw"
 var box_1 = document.getElementById("append_detail");
-box_1.setAttribute("id","box_1");
+// box_1.setAttribute("id","box_1");
 
 
 
@@ -68,7 +70,14 @@ box_1.setAttribute("id","box_1");
 function jump(){
 
     var net =   document.getElementById("net");
+    net.style.display = "block";
       net.innerHTML = null;
+      
+      var box = document.getElementById("second_div");
+box.style.paddingRight = "18vw";
+box.style.boxShadow="rgb(0 0 0 / 2%) 0px 1px 3px 0px, rgb(27 31 35 / 15%) 0px 0px 0px 1px;"
+// box.setAttribute("id","append_img")
+
 
   var max = document.createElement("p")
     max.innerText = "Important: You will be redirected to your bank's website to securely complete your payment. You will have 30 minutes to pay for your booking.";
@@ -78,7 +87,44 @@ function jump(){
 }
 
 
-document.getElementById("debit").removeEventListener("click",block)
+document.getElementById("debit").addEventListener("click",visible);
+
+function visible(){
+    console.log(1);
+    var net =   document.getElementById("net");
+net.style.display = "none";
+
+var box = document.getElementById("bank_details");
+box.style.height = "auto";
+
+
+
+
+    var one = document.getElementById("logo_bank");
+    one.style.display = "block";
+    var two = document.getElementById("name_card");
+    two.style.display = "block";
+    var three = document.getElementById("card_num");
+    three.style.display = "block";
+    var four = document.getElementById("month");
+    four.style.display = "block";
+    var five  = document.getElementById("year");
+    five.style.display = "inline";
+    var six = document.getElementById("code_c");
+    six.style.display = "block";
+    var seven = document.getElementById("cvv");
+    seven.style.display = "block";
+    var eigth = document.getElementById("terr");
+    eigth.style.display ="block";
+    var nine = document.getElementById("pan");
+    nine.style.display = "block";
+    var box = document.getElementById("bank_details");
+    // box.style.height = "8vw"
+var box_1 = document.getElementById("append_detail");
+// box_1.setAttribute("id","box_1");
+
+
+}
 
 
 
@@ -113,12 +159,15 @@ function append_Info(arr){
     var img = document.createElement("img");
     img.src = arr.url;
     var name = document.createElement("p");
-    name.innerText = arr.name;
+    name.setAttribute("id","name")
+    name.innerText ="Name :"+" "+ arr.name;
 
     var location = document.createElement("p");
-    location.innerText= arr.location;
+    location.setAttribute("id","location")
+    location.innerText="Location :"+" "+ arr.location;
     var total_price = document.createElement("p");
-    total_price.innerText = arr.price;
+    total_price.setAttribute("id","total_price")
+    total_price.innerText ="Price :"+" "+ arr.price;
     console.log("hellow")
 
 
@@ -136,4 +185,15 @@ append_Info(arr);
 
 
 
+document.getElementById("booking").addEventListener("click",pops)
+function pops(){
 
+
+}
+
+document.getElementById("header_head").addEventListener("click",sigin);
+
+function sigin(){
+    window.location.href = "/Team-Expedia/signup/signup.html";
+
+}

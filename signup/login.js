@@ -46,10 +46,15 @@ function swap_Info(){
    para.innerText = "Not your device? Selecting this checkbox reduces the amount of time you are signed in here."
    display_box.append(para);
   
+  
    
 }
 
-
+document.getElementById("sign_in").addEventListener("click",showMe);
+function showMe(){
+    alert("Login Successfully");
+    window.location.href = "../index.html"
+}
 
 
  document.getElementById("eye_icon").addEventListener("click",eye_icon)
@@ -78,4 +83,14 @@ document.getElementById("signup_head_left_arrow").addEventListener("click",back_
 
 function back_go(){
     window.location.href = "./signup.html"
+}
+
+
+
+
+document.getElementById("create").addEventListener("click",JumpBack);
+
+function JumpBack(){
+    window.location.href = "./signup.html";
+
 }

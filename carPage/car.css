@@ -437,6 +437,10 @@ body {
     align-items: center;
     justify-content: center;
 }
+.selectBtn:hover{
+    background:rgb(240, 35, 35);
+    cursor: pointer;
+}
 
 .selectBtn {
     width: 80%;
@@ -596,6 +600,10 @@ body {
     color: black;
 }
 
+.editBtn:hover{
+    cursor: pointer;
+    background:rgb(240, 35, 35); 
+}
 .editBtn {
     background-color: #00355d;
     color: #FFFFFF;

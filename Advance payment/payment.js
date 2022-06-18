@@ -135,22 +135,22 @@ var box_1 = document.getElementById("append_detail");
 // json page
 
 
-var arr= {
-    url:"https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/1000000/540000/531700/531648/db6e3fdf_b.jpg",
-    name:"Le Meridien New Delhi",
-    location:" New Delhi",
-    services:["pool"],
-    special:"",
-    description:"",
-    refund:"Fully refundable Reserve now, pay later",
-    reviews:{rating: "4.3/5", comment: "Excellent",reviews:"(524 reviews)"},
-    seats: "We have 5 left at",
-    price:" Rs 8,650",
-    total_price: "Rs 10,207 total"
-}
+// var arr= {
+//     url:"https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/1000000/540000/531700/531648/db6e3fdf_b.jpg",
+//     name:"Le Meridien New Delhi",
+//     location:" New Delhi",
+//     services:["pool"],
+//     special:"",
+//     description:"",
+//     refund:"Fully refundable Reserve now, pay later",
+//     reviews:{rating: "4.3/5", comment: "Excellent",reviews:"(524 reviews)"},
+//     seats: "We have 5 left at",
+//     price:" Rs 8,650",
+//     total_price: "Rs 10,207 total"
+// }
 
 
-// var arr = JSON.parse(localStorage.getItem("Booked")) ;
+var arr = JSON.parse(localStorage.getItem("Booked")) ;
 
 function append_Info(arr){
     var box = document.getElementById("append_detail");
@@ -174,11 +174,8 @@ function append_Info(arr){
     main_div_box.append(img,name,location,total_price)
     box.append(main_div_box);
 
-
-
-
-
 }
+
 
 append_Info(arr);
 

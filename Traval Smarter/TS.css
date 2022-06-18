@@ -4,7 +4,13 @@ body{
     background-color: rgb(243, 240, 240);
 }
 *{
-    font-family: 'Open Sans', sans-serif;
+    font: 1.2em "Fira Sans", sans-serif;
+   
+    /* font-weight: 400; */
+    
+}
+#arrow{
+height: 30px;
 }
 h1{
     width: 80%;

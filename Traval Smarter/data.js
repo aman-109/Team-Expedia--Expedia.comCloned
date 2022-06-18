@@ -171,6 +171,7 @@ data=[
 console.log(data)
 data.forEach((el) => {
     let div =document.createElement("div");
+        div.addEventListener("click",getFun)
 
     let image=document.createElement("img");
     image.src=el.image;
@@ -231,3 +232,8 @@ priceSec.append(TotalPrice,prediv)
     div.append(image,name,city,s_div,priceSec,date);
     document.getElementById("tsContainer").append(div)
 });
+
+
+function getFun(){
+    window.location.href="../Hotel_Stay/test.html"
+}

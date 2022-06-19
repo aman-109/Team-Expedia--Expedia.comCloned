@@ -15,12 +15,12 @@
     
 }
 
-#input_navbar>h3>a{
+#input_navbar>h3{
     font-size: 18px;
     margin-right: 30px;
     color: black;    
 }
-#input_navbar>h3>a:hover{
+#input_navbar>h3:hover{
     color:rgb(3, 62, 172) ;
     text-decoration-line: underline;
 }

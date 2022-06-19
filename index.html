@@ -20,18 +20,19 @@
     <link rel="stylesheet" href="./Expedia.com/style/navbar.css">
      <link rel="stylesheet" href="./Expedia.com/home_page.css">
      <link rel="stylesheet" href="./Hotel_Stay/style/footer.css">
+     <link rel="stylesheet" href="./carInput.css">
 </head>
 <body >
     <div id="navbar"></div>
     <div id="input">
       <div id="input_navbar" >
-          <h3><a href="">Stays</a></h3>
-          <h3><a href="">Flights</a></h3>
-          <h3><a href="">Cars</a></h3>
-          <h3><a href="">Packages</a></h3>
-          <h3><a href="">Things to do</a></h3>
+          <h3 onclick="stay()">  Stays</h3>
+          <h3  >Flights</h3>
+          <h3  onClick="carDivSearchFun();">Cars</h3>
+          <h3 >Packages</h3>
+          <h3>Things to do</h3>
       </div>
-
+    <div id="input2"></div>
     </div>
     <div id="bigimg">
         <div id="box">
@@ -83,3 +84,4 @@
 
     document.getElementById("footer").innerHTML=footer()
 </script>
+<script src="./index.js"></script>

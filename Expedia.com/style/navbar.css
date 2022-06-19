@@ -1,62 +1,57 @@
 #navbar{
     display: flex;
-    height: 80px;
-    overflow: visible;
+    height: 60px;
     font-size: xx-small;
     justify-content: center;
     justify-content: space-between;
     padding-left: 50px;
-   border-bottom: 2px solid rgb(184, 167, 167);
+    border-bottom: 2px solid rgb(184, 167, 167);
     margin-bottom: 50px;
 
 }
 #option{
-    
     display: flex;
     width: 40%;
-    justify-content: center;
-    align-items: center;
-    
+    height: 50px;
+  justify-content: space-evenly; 
+  
 }
-#globe{
+#globe{   
     height: 20px;
-   cursor: pointer;
-    
-}
-#bell{
-    height: 46px;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-top: 5px;
     cursor: pointer;
-    color: aliceblue;
+    margin-top: 12px;    
+}
+
+#bell{  
+    height: 46px;
+    cursor: pointer;  
 }
 #img{
   
     display: flex;
     align-items: center;
     width: 300px;
+    height: 50px;
     justify-content: space-between;
-   margin-right: 20px;
-    
-padding-right: -50px;
+  
 
 }
 #img>img{
     height: 30px;
+    border: 1px solid rgb(40, 40, 17);
     
 }
 
 #arrow{
-    margin-bottom: -8px;
+    margin-bottom: -10px;
+   
+    height: 30px;
 }
 #support{
-    width: 100px;
+  
+    width: 60px;
     color: black;
-    margin-right: 35px;
-    margin-left: 25px;
-   
-   text-decoration-line: none;
+    text-decoration-line: none;
 }
 #support:hover{
     color: cornflowerblue;
@@ -66,17 +61,19 @@ padding-right: -50px;
     display: flex;
     justify-content: space-between;
     width: 100px;
-    margin-right: 10px;
+    height: 30px;
+   
+    
 }
 #english{
     color: black;
-      padding-top: 2px;
-    text-decoration-line: none;
+    text-decoration-line: none; 
 }
 #english:hover{
     color: cornflowerblue;
 }
 #trips{
+   
     color: black;
     text-decoration-line: none;
 }
@@ -84,6 +81,7 @@ padding-right: -50px;
     color: cornflowerblue;
 }
 #singin{
+   
     color: black;
     text-decoration-line: none;
 }
@@ -94,8 +92,9 @@ padding-right: -50px;
     cursor: pointer;
     position: relative;
     background-color: white;
+       height: 30px;
+    margin-top: 5px;
     border: 0px;
-    padding-bottom: 5px;
 }
 #more_travel:hover{
     color:cornflowerblue ;

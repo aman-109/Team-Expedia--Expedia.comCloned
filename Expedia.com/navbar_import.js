@@ -1,7 +1,9 @@
 function navBar(){
     return ` 
     <div id="img">
-        <img src="https://www.expedia.co.in/_dms/header/logo.svg?locale=en_GB&siteid=27&2" >
+    <a href="./index.html">     
+    <img src="https://www.expedia.co.in/_dms/header/logo.svg?locale=en_GB&siteid=27&2" >
+    </a>
        <div id="more_t">
        <button  id="more_travel">More travel <img id="arrow" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3QkoJmX0GJraGxIFt-OEiZeDBA9iOJJxRlg&usqp=CAU"></button>
         <div id="pop" class="popup">

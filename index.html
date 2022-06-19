@@ -17,8 +17,9 @@
     height: 30px;
 }
     </style>
-    <link rel="stylesheet" href="./style/navbar.css">
-     <link rel="stylesheet" href="home_page.css">
+    <link rel="stylesheet" href="./Expedia.com/style/navbar.css">
+     <link rel="stylesheet" href="./Expedia.com/home_page.css">
+     <link rel="stylesheet" href="./Hotel_Stay/style/footer.css">
 </head>
 <body >
     <div id="navbar"></div>
@@ -39,12 +40,13 @@
           <button>See Member Prices</button>
         </div>
     </div>
+    <a href="./Traval Smarter/Travel Smarter.html">
     <div  id="travel_smarter" onclick="gotoTravelpage()">
         <div id="ts">
             <h5>Plan ahead and save</h5>
             <p>Book 60 days in advance for 0% sselect stays</p>
         </div> 
-    </div>
+    </div></a>
     <p id="p1">Explore a world of travel with Expedia</p>
     <p id="p2">Discover new places and experiences</p>
  
@@ -54,10 +56,14 @@
              <div id="first">
                 <h1>Over app takes you further</h1>
                 <p>When you book on the app you can save up to 10% on select hotels while earning double the points with every with every booking. With these app deals you'll save even more on trips, and that means you can take more trips, and manage it all on the go.</p>
-                <h2>Text yourself a download link for easy access</h2>
+                <h3>Text yourself a download link for easy access</h3>
              </div>
-             <div id="second"></div>
-             <div third></div>
+             <div id="second">
+                <input type="Number" placeholder="Country Code">
+                <input type="number" placeholder="Mobile Number">
+                <button>Get the app</button>
+             </div>
+             <div id="third"><p> By providing your number, you agree to rreceive a one-time</p> </div>
 
         </div>
         <div id="qrimg">
@@ -65,10 +71,15 @@
              <p>Scan the QR code</p>
         </div>
      </div>
+     <div id="footer"></div>
 
 </body>
 </html>
-<script type="module" src="./navbar.js">
+<script type="module" src="./Expedia.com/navbar.js">
+</script>
+<script type="module">
 
+    import footer from "./Hotel_Stay/components/footer.js"
 
+    document.getElementById("footer").innerHTML=footer()
 </script>

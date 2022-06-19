@@ -6,13 +6,18 @@
     justify-content: space-between;
     padding-left: 50px;
     border-bottom: 2px solid rgb(184, 167, 167);
-    margin-bottom: 50px;
+    margin-bottom: 50px;background-color: white;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    position: fixed;
 
 }
 #option{
     display: flex;
     width: 40%;
     height: 50px;
+    margin-right: 20px;
   justify-content: space-evenly; 
   
 }

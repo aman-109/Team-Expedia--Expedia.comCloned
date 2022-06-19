@@ -1,7 +1,7 @@
 function navBar(){
     return ` 
     <div id="img">
-    <a href="./index.html">     
+    <a href="../index.html">     
     <img src="https://www.expedia.co.in/_dms/header/logo.svg?locale=en_GB&siteid=27&2" >
     </a>
        <div id="more_t">

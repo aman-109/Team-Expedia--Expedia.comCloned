@@ -23,6 +23,7 @@ function stay(){
     let button= document.createElement("button");
     button.setAttribute("id","staybutton");
     button.innerText="Search";
+    button.addEventListener("click",myfunction2);
     div1.append(going,checkin,checkout,numperson);
     div.append(div1,button);
     console.log("kkshdv");
@@ -31,7 +32,9 @@ function stay(){
 }
 //  stay();
 
-
+function myfunction2(){
+  window.location.href="./Hotel_Stay/test.html";
+}
 
  function carDivSearchFun(){
     document.getElementById("input2").innerHTML= null;
@@ -97,7 +100,8 @@ function stay(){
     var input2132 =document.createElement("input")
     input2132.placeholder = "Drop-Off-date"
     
-    div213.append(input2131, input2132, input2133, input2134)
+    // div213.append(input2131, input2132, input2133, input2134)
+    div2132.append(input2132)
 
     var div2133 =document.createElement("div")
     div2133.setAttribute("class", "input2133")
@@ -114,6 +118,7 @@ function stay(){
     input2134.placeholder = "Drop-Off-time"
     
     div2134.append(input2134)
+    div213.append(div2131, div2132, div2133, div2134)
 
      // ...........4 inside Div
 
@@ -123,15 +128,21 @@ function stay(){
      var btn = document.createElement("button")
      btn.setAttribute("class", "carSearchBtn")
      btn.innerText="Search"
+     btn.addEventListener("click",myfunction);
      
      div214.append(btn)
 
     //  ......append Main
 
-    div21.append(div211, div212, div213, div214)
+    div21.append(div211, div212,div213, div214);
+
 
     // ........append in input 2
 
     main.append(div21)
 }
 // carDivSearchFun();
+
+function myfunction(){
+    window.location.href="./carPage/car.html"
+}

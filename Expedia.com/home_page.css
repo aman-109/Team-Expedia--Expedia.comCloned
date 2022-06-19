@@ -192,3 +192,55 @@
       font-size: 15px;
       margin-left: 13px;
 }
+#staybox{
+    margin-top: 20px;
+    text-align: center;
+    height: 130px;
+}
+#divstay1{
+    display: flex;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+#staygoin{  
+    margin-left: 50px;
+    border-radius: 10px;
+    width: 400px;
+    height: 30px;
+}
+#staycheckin{
+    
+   width: 150px;
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+#staycheckout{
+    font-size: 15px;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+#staynumperson{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 20px;
+
+    font-size: 15px;
+}
+#staybutton{
+    background-color: rgb(4, 89, 247);
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 22px;
+    border-radius: 10px;
+    margin-bottom: -10px;
+    border: 0ch;
+}
+#staybutton:hover{
+    cursor: pointer;
+    background-color:rgb(3, 62, 172) ;
+}

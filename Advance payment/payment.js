@@ -186,7 +186,7 @@ append_Info(arr);
 
 document.getElementById("booking").addEventListener("click",pops)
 function pops(){
-alert("Order Placed ! Thank You for Order....")
+alert("Your booking has been successful, Thank you....... ")
 window.location.href = "../index.html"
 console.log(0)
 }

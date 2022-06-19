@@ -52,6 +52,7 @@ function carDivSearchFun(){
     div2131.setAttribute("class", "input2131")
      
     var input2131 =document.createElement("input")
+    input2131.setAttribute("id","carInput")
     input2131.placeholder = "Pick-Up-date"
     
     div2131.append(input2131)
@@ -78,7 +79,9 @@ function carDivSearchFun(){
     var input2134 =document.createElement("input")
     input2134.placeholder = "Drop-Off-time"
     
-    div2134.append(input2134)
+    div2134.append(input2134);
+div213.append(div2131,div2132,div2133,div2134);
+
 
      // ...........4 inside Div
 
